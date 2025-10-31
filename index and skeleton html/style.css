@@ -1,0 +1,439 @@
+body{
+    background-color: #FCF4D7;
+}
+
+header{
+    background-color: none;
+    height: 20vw;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    font-family: Georgia, ;
+    font-size: 4.8vw;
+    margin-top: -3%;
+    
+}
+
+.navbar{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4.3%;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 2vw;
+}
+
+a:hover{
+    color: #66A1BC;
+    font-size: 2.1vw;
+}
+
+.pagebreak{
+    transform: translateY(35px);
+    width: 82%;
+    height: 1px;
+    background-color: black;
+    justify-content: center;
+    margin-left: 9%;
+    margin-bottom: 8%;
+}
+
+.herosection{
+    height: 50vw;
+    background-color: #66A1BC;
+}
+
+.herotop{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+ 
+}
+
+.text1{
+    height: 40%;
+    width: 20%;
+    
+}
+.image1{
+    margin-top: 8%;
+    background-image: url(/uxProjects/DIprojectpt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 30%;
+}
+.image2{
+    margin-top: 8%;
+    background-image: url(/images!/A%20Delightful%20Meal.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; 
+
+    height: 70%;
+    width: 30%;
+}
+.image3{
+    margin-top: 8%;
+    background-image: url(/images!/shrekboi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 30%;
+}
+
+.herobottom{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    font-family: Georgia;
+    font-size: 3.2vw;
+
+   
+}
+
+.aboutme{
+    font-size: 5vw;
+    font-family: Georgia;
+    justify-content: center;
+    display: flex;
+    margin-top: -5%
+}
+
+.aboutme:hover{
+    font-size: 5.2vw;
+}
+
+.gallery{
+    height: 40vw;
+    
+}
+
+.gal1{
+    margin-top: 0%;
+    background-image: url(/images!/Wounded%20Angel.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+}
+.gal2{
+    margin-top: 0%;
+    background-image: url(/images!/A%20Delightful%20Meal.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 35%;
+     transform: translateX(20px);
+}
+.gal3{
+    margin-top: 0%;
+    background-image: url(/images!/fuzzymemory.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+    transform: translateX(40px);
+    
+}
+
+.gal4{
+    margin-top: 0%;
+    background-image: url(/images!/mantaray.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+}
+.gal5{
+    margin-top: 0%;
+    background-image: url(/images!/maskoff.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+     transform: translateX(50px);
+}
+.gal6{
+    margin-top: 0%;
+    background-image: url(/images!/grandparents.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+    transform: translateX(40px)
+}
+
+.dwcaption1{
+    width: 20%;
+    height: 2vw;
+    justify-content: center;
+    display: flex;
+    text-align-last: center;
+}
+
+.caption{
+    width: 30%;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.villan{
+    height: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.villanleft{
+    background-image: url(/images!/professpic.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 40%;
+    border-radius: 25px;
+}
+
+.villanright{
+    font-family: Georgia;
+    height: 80%;
+    width: 50%;
+
+}
+
+.villanrighttop{
+    height: 20%;
+}
+
+.villanrightbottom{
+    margin-right: 5%;
+    font-size: 2.6vw;
+    height: 75%;
+}
+
+.footer{
+    height: 15vw;
+    font-family: Georgia;
+}
+
+.foottop{
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    height: 30%;
+    margin-bottom: 2%;
+    background-color: #66A1BC;
+}
+
+.footbot{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+    margin-bottom: 5%;
+      
+}
+
+.social{
+    margin-top: 2%;
+    font-size: 3vw;
+}
+
+.social:hover{
+    margin-top: 2%;
+    font-size: 3.2vw;
+}
+
+.pagetitle{
+    display: flex;
+    justify-content: center;
+    font-size: 6vw; 
+    font-family: Georgia;
+    background-color: #66A1BC
+    
+}
+
+.pagebreak1{
+      transform: translateY(1px);
+    width: 82%;
+    height: 1px;
+    background-color: black;
+    justify-content: center;
+    margin-left: 9%;
+    margin-bottom: 2%;
+}
+
+.pagebreak2{
+      transform: translateY(7px);
+    width: 82%;
+    height: 1px;
+    background-color: black;
+    justify-content: center;
+    margin-left: 9%;
+    margin-bottom: 2%;
+    margin-top: -1.2%;
+}
+
+.dwgal1{
+    margin-top: 0%;
+    margin-left: 6%;
+    background-image: url(/images!/gbmGraphic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+}
+
+.dwgal2{
+    margin-top: 0%;
+    background-image: url(/images!/art346proj.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+    margin-right: 6%;
+}
+
+.dwgal3{
+    margin-top: 10%;
+    background-image: url(/images!/fasoshirtlogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+    transform: translateX(-15px)
+}
+
+.dwgal4{
+    margin-top: 0%;
+    background-image: url(/images!/faso%20merch%20design.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+}
+.dwgal5{
+    margin-top: 0%;
+    background-image: url(/images!/filo%20food%20fridays!.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+}
+.dwgal6{
+    margin-top: 0%;
+    background-image: url(/images!/shrekboi.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 30%;
+    transform: translateX(26px)
+}
+
+.uxgal1{
+    display: flex;
+    margin-top: 15%;
+    height: 130%;
+    width: 20%;
+    justify-content: left;
+    
+    background-color: aqua
+    
+
+}
+.uxgal2{
+    display: flex;
+    margin-top: 15%;
+    height: 130%;
+    width: 20%;
+    justify-content: right;
+    
+    
+}
+
+.uxgal3{
+    display: flex;
+    margin-top: 15%;
+    padding-left: 50px;
+    height: 130%;
+    width: 20%;
+    justify-content: right;
+    background-color: aqua
+    
+    
+}
+
+.uxcaption{
+    width: 50%;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4.3em
+
+}
+
+mark{
+    background-color: #66A1BC;
+    color: #FCF4D7;
+}
+
+.programtitle{
+    display: flex;
+    justify-content: center;
+    background-color:#66A1BC
+}
+
+.programlist{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.programlist dl dt {
+    font-weight: bold; 
+    color:#66A1BC;
+    margin-top: 20px;  
+    font-size: 1 em;
+    text-align: center;
+    justify-content: center;
+}
+
+.programlist dl dd {
+    margin-left: 0;       
+    margin-bottom: 20px; 
+    line-height: 1.5;     
+    font-size: 1em;  
+    text-align: center;
+    justify-content: center;
+}
+
